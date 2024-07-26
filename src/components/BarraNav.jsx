@@ -12,6 +12,7 @@ function BarraNav() {
         
         <Nav.Link href="/base">Base</Nav.Link>
         <Nav.Link href="/registro">Registro</Nav.Link> 
+        <Nav.Link href="/login">Login</Nav.Link>
       </Nav>
     </Container>    
   </Navbar>
