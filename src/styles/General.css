@@ -1,0 +1,52 @@
+/* Base.css */
+.base-container {
+    padding: 20px;
+}
+
+.first-container {
+    margin-bottom: 20px;
+}
+
+.base-modal table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.base-modal th, .base-modal td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.base-modal th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.base-modal tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.base-modal tr:hover {
+    background-color: #ddd;
+}
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.icon-button:hover {
+    background-color: #f0f0f0;
+}
+
+.edit-button {
+    
+}
+.delete-button {
+    color: #dc3545; 
+}
