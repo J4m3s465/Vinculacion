@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { MdOutlineEmojiObjects } from "react-icons/md";
 import DataEjm from '../components/Data';
 import { Table } from 'react-bootstrap';
 import '../styles/General.css';
@@ -30,16 +31,18 @@ function Base() {
             >
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter">
-                        Modal heading
+                        Editar Producto
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <h4>Centered Modal</h4>
-                    <p>
-                        Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                        dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                        consectetur ac, vestibulum at eros.
-                    </p>
+                    <h4>Información del producto</h4>
+                    <div>
+                        <input type="hidden" id='id' />
+                    </div>
+                    <div>
+                      <label id='product' ><MdOutlineEmojiObjects /></label>
+                        <input type="text" id='product' placeholder='Nombre del Producto' value={product} onChange={(e)=>setProduct(e.target.value)}/>
+                    </div>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={props.onHide}>Close</Button>
