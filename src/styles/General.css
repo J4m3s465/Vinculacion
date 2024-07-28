@@ -93,4 +93,26 @@ form {
   button:hover {
     background-color: #0056b3;
   }
+/*Inicio*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
 
+.title {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 1.2em;
+  color: #666;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.5;
+}
