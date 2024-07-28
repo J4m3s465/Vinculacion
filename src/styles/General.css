@@ -94,24 +94,25 @@ form {
     background-color: #0056b3;
   }
 /*Inicio*/
-.container {
+.l23 {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #9fb0c9;
 }
 
 .title2 {
-  font-size: 3em;
-  color: #333;
+  font-size: 30px;
+  color: #0a0a0a;
   margin-bottom: 20px;
 }
 
 .paragraph {
   font-size: 1.2em;
-  color: #666;
+  color: #0e0d0d;
   max-width: 600px;
   text-align: center;
   line-height: 1.5;

@@ -1,4 +1,4 @@
-.inicio-container {
+.l23 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,16 @@
   background-color: #f0f0f0;
 }
 
-.inicio-text {
-  font-size: 2rem;
+.welcome-message {
+  font-size: 2em;
   color: #333;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.paragraph {
+  font-size: 1.2em;
+  color: #666;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.5;
 }

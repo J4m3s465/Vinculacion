@@ -1,9 +1,9 @@
-import React from 'react'
-import '../styles/General.css';
+import React from 'react';
+//import './Inicio.css';
 
 function Inicio() {
   return (
-    <div className="container">
+    <div className="l23">
       <div className="title2">
         Bienvenido
       </div>
@@ -15,4 +15,4 @@ function Inicio() {
   );
 }
 
-export default Inicio
+export default Inicio;
