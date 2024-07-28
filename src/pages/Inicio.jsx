@@ -1,13 +1,15 @@
 import React from 'react'
 
 function Inicio() {
- return (
+  return (
     <div className="container">
-      <h1 className="title">Bienvenido</h1>
-      <p className="paragraph">
-        Es una aplicación web desarrollada utilizando JavaScript y un framework moderno como React.
-       Proporciona una interfaz interactiva y dinámica, facilitando actualizaciones en tiempo real
-      </p>
+      <div className="title2">
+        Bienvenido
+      </div>
+      <div className="paragraph">
+      Es una aplicación web desarrollada utilizando JavaScript y un framework moderno como React.
+      Proporciona una interfaz interactiva y dinámica, facilitando actualizaciones en tiempo real.
+      </div>
     </div>
   );
 }
