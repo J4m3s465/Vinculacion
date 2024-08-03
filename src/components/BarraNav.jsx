@@ -7,7 +7,6 @@ function BarraNav() {
   return (
     <Navbar bg="light" data-bs-theme="light">
     <Container>
-      <Navbar.Brand href="/inicio">Inicio</Navbar.Brand>
       <Nav className="me-auto">
         
         <Nav.Link href="/base">Base</Nav.Link>
