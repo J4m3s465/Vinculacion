@@ -7,6 +7,7 @@ import { Table } from 'react-bootstrap';
 import '../styles/General.css';
 import { CiEdit } from "react-icons/ci";
 import { MdOutlineDelete } from "react-icons/md";
+import BarraNav from '../components/BarraNav';
 
 
 function Base() {
@@ -23,6 +24,7 @@ function Base() {
 
     function MyVerticallyCenteredModal(props) {
         return (
+            <div>
             <Modal
                 {...props}
                 size="lg"
@@ -40,7 +42,7 @@ function Base() {
                         <input type="hidden" id='id' />
                     </div>
                     <div>
-                      <label id='product' ><MdOutlineEmojiObjects /></label>
+                    <label id='product' ><MdOutlineEmojiObjects /></label>
                         <input type="text" id='product' placeholder='Nombre del Producto' value={product} onChange={(e)=>setProduct(e.target.value)}/>
                     </div>
                 </Modal.Body>
@@ -48,6 +50,7 @@ function Base() {
                     <Button onClick={props.onHide}>Close</Button>
                 </Modal.Footer>
             </Modal>
+            </div>
         );
     }
 

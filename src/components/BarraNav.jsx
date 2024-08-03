@@ -9,9 +9,8 @@ function BarraNav() {
     <Container>
       <Nav className="me-auto">
         
-        <Nav.Link href="/base">Base</Nav.Link>
-        <Nav.Link href="/registro">Registro</Nav.Link> 
         <Nav.Link href="/login">Login</Nav.Link>
+        <Nav.Link href="/base">Base</Nav.Link>
       </Nav>
     </Container>    
   </Navbar>
