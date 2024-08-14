@@ -7,6 +7,7 @@ import { Table } from 'react-bootstrap';
 import '../styles/General.css';
 import { CiEdit } from "react-icons/ci";
 import { MdOutlineDelete } from "react-icons/md";
+import BarraNav from '../components/BarraNav';
 
 import { FaPlusCircle } from "react-icons/fa";
 import RegistrarEntrada from './RegistrarEntrada';
@@ -55,6 +56,7 @@ function Base() {
 
     function MyVerticallyCenteredModal(props) {
         return (
+            <div>
             <Modal
                 {...props}
                 size="lg"
@@ -99,12 +101,15 @@ function Base() {
                         <button>
                             Insertar <FaPlusCircle />
                         </button>
+                    <label id='product' ><MdOutlineEmojiObjects /></label>
+                        <input type="text" id='product' placeholder='Nombre del Producto' value={product} onChange={(e)=>setProduct(e.target.value)}/>
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={props.onHide}>Close</Button>
                 </Modal.Footer>
             </Modal>
+            </div>
         );
     }
 
